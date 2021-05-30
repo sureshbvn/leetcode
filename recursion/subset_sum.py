@@ -1,3 +1,5 @@
+# Count number of subsets the will sum up to given target sum.
+
 def subsets(subset, targetSum):
     # The helper recursive function. Instead of passing a slate(subset), we are 
     # passing the remaining sum that we are interested in. This will reduce the
