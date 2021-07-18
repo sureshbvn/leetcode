@@ -1,3 +1,4 @@
+import collections
 def floodFill(image, sr, sc, newColor):
         
     # Get all the neigbhours for the given cordinate.
@@ -47,5 +48,5 @@ def floodFill(image, sr, sc, newColor):
     bfs((sr,sc))
     return image
     
-image = [[0,0,0],[0,0,0]]
+image = [[0,0,0],[1,0,0]]
 print(floodFill(image, 0, 0, 2))
